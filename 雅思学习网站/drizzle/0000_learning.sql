@@ -1,0 +1,3 @@
+CREATE TABLE learning (user_id TEXT PRIMARY KEY NOT NULL, data TEXT NOT NULL, revision INTEGER NOT NULL DEFAULT 0);
+--> statement-breakpoint
+CREATE TABLE content (id INTEGER PRIMARY KEY NOT NULL, data TEXT NOT NULL);
